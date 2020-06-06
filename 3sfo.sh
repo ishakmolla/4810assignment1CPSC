@@ -9,3 +9,5 @@ fdcut = flightdetails[["ArrDelay", "Origin"]]
 sfo=fdcut[fdcut["Origin"]=="SFO"]
 
 print(sfo.head(3))
+ 
+print("ishaque")
